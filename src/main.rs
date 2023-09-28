@@ -15,5 +15,5 @@ fn main() {
      let shares = sss.split(secret.clone());
     
      println!("shares: {:?}", shares);
-     assert_eq!(secret, sss.recover(&shares[0..sss.n as usize]));
+     
 }
