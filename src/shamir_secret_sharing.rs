@@ -84,7 +84,7 @@ impl ShamirSecretShare {
       }
       
 
-      // uses stein algorithm to find modular inverse which has good performance in modern software
+      // uses stein algorithm to find modular inverse which has good performance in modern hardware
       pub fn modular_inverse(&self, number: BigInt) -> BigInt {
         
         let mut a = number;
